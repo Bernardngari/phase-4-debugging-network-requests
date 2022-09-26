@@ -21,6 +21,7 @@ function MovieList(props) {
       (category, index, categories) => categories.indexOf(category) === index
     )
     .sort();
+		console.log(categories);
 
   const displayedMovies = movies.filter(
     (movie) => selectedCategory === "All" || movie.category === selectedCategory

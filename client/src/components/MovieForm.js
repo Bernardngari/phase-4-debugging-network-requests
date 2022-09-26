@@ -154,6 +154,7 @@ const SubmitButton = styled.button`
   border: none;
   padding: 8px 16px;
   cursor: pointer;
+	border-radius: 5px;
 `;
 
 export default MovieForm;
